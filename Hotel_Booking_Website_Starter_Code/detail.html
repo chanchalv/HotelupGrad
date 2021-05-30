@@ -3,14 +3,30 @@
     <title></title>
     </head>
     <body>
-        <div>
-     <img src="C:\Users\Dell\Desktop\HotelUPgrad\Hotel_Booking_Website_Starter_Code\assests\images\logo.png" height="200" width="150" alt="logo" />
+        <a href="index.html" target="_self">
+     <img src="C:\Users\Dell\Desktop\HotelUPgrad\Hotel_Booking_Website_Starter_Code\assests\images\logo.png" height="200" width="150" alt="logo" /></a>
      <div><a href="file:///C:/Users/Dell/Desktop/HotelUPgrad/Hotel_Booking_Website_Starter_Code/login.html" target="_blank">Login</a> </div>
     </div>
     <div>
         <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"/>
         <div>
-            <a href="C:\Users\Dell\Desktop\HotelUPgrad\Hotel_Booking_Website_Starter_Code\payment.html" target="_self">Book Now</a>
+          <form action="payment.html" method="GET" target="_self">
+               
+                <label for="adults">Adults:</label>
+                 <input type="number" id="adults" name="adults" required min="1"/> <br>
+                 <label for="name">Name:</label>
+                 <input type="text" required/> <br>
+                 <label for="date">From Date:</label>
+                 <input type="date" required/> <br>
+                 <label for="date">To Date:</label>
+                 <input type="date" required /> <br>
+                 <label for="total">Total:</label>
+                 <input type="number" readonly/> <br>
+                 <label for="book now"></label>
+                 <input type="submit" value="Book Now"/>
+
+            </form>
+            
             
             </div>
         <h2>Radisson Blu Hotel</h2>
