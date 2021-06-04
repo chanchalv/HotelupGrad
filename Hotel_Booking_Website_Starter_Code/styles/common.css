@@ -1,0 +1,12 @@
+body,html{
+    height:100vh;
+}
+
+.website-logo {
+    height: 60px;
+    width: 60px;
+}
+.social-media-icons {
+    height: 20px;
+    width: 22px;
+}
